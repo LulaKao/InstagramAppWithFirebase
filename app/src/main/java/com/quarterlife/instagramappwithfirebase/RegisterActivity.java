@@ -110,6 +110,7 @@ public class RegisterActivity extends AppCompatActivity {
                                         Intent intent = new Intent(RegisterActivity.this, MainActivity.class); // 創建 Intent
                                         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK); // 清掉舊的 Activity
                                         startActivity(intent); // 跳轉到 MainActivity
+                                        finish(); // 結束此頁
 
                                         /*  Intent.FLAG_ACTIVITY_CLEAR_TASK：
                                         這個 Flag 能造成在新的 Activity 啟動前，與舊的 Activity 相關聯的任務被清空。
@@ -118,6 +119,7 @@ public class RegisterActivity extends AppCompatActivity {
                                     }
                                 }
                             });
+
                         } else { // 任務失敗
                             progressDialog.dismiss(); // 讓 progressDialog 消失
                             Toast.makeText(RegisterActivity.this, "You can't register with this email or password", Toast.LENGTH_SHORT).show(); // 顯示註冊失敗

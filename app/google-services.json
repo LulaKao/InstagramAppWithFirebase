@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1038270849716",
+    "firebase_url": "https://instagram-dd03b.firebaseio.com",
+    "project_id": "instagram-dd03b",
+    "storage_bucket": "instagram-dd03b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038270849716:android:33e386d7a49f0ea25fade1",
+        "android_client_info": {
+          "package_name": "com.quarterlife.instagramappwithfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038270849716-7uka3jr11i4n71nrt079tpmbat4510ov.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.quarterlife.instagramappwithfirebase",
+            "certificate_hash": "f81bd243edd811a457ee11cfff5b0aaffc84ee4c"
+          }
+        },
+        {
+          "client_id": "1038270849716-1k77217jb3e6m9lgplvgjmcrlcgogju9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCRtQynNbGS9Ng7ZBJyVw3dKm3wvNgPzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038270849716-1k77217jb3e6m9lgplvgjmcrlcgogju9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
