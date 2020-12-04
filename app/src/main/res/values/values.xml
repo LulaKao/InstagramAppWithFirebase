@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="design_bottom_navigation_active_text_size">12dp</dimen>
+    <dimen name="design_bottom_navigation_text_size">12dp</dimen>
+</resources>
+
+<!--    新增 values.xml 並讓 design_bottom_navigation_active_text_size 和 design_bottom_navigation_text_size 的值相等
+        就可以解決 BottomNavigationView 點選 icon 預設文字會變大，且 icon 會向上偏移的問題  -->
+
+<!--    想要更改 BottomNavigationView 的文字大小，也可以在這裡修改    -->

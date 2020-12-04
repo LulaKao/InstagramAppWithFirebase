@@ -24,6 +24,7 @@
             android:layout_height="wrap_content"
             app:itemIconTint="@color/selector"
             app:labelVisibilityMode="unlabeled"
+            app:itemBackground="@null"
             android:background="?android:attr/windowBackground"
             app:menu="@menu/bottom_navigation"/>
 
@@ -32,6 +33,8 @@
                 labeled 為全部都可見
                 unlabeled 為全部都不可見
                 預設是選到某個 icon 時，標籤才會出現，沒選到時，標籤會隱藏 -->
+        <!-- itemBackground="@null" 為移除點選動畫的水波紋效果 -->
+        <!-- app:itemTextColor="@color/selector" 為設定文字的點選顏色 -->
 
     </com.google.android.material.appbar.AppBarLayout>
 
